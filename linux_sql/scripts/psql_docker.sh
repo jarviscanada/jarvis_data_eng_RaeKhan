@@ -40,7 +40,7 @@ case $cmd in
       echo 'Container not created'
       exit 1
     fi
-  
+
     # start or stop the container
     docker container $cmd jrvs-psql
     exit $?
