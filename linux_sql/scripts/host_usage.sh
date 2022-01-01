@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # input arguments
 psql_host=$1
 psql_port=$2
@@ -20,7 +22,10 @@ vmstat_mb=$(vmstat --unit M)
 timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 host_id="(SELECT id FROM host_info WHERE hostname='$hostname')"
 memory_free=$(echo "$vmstat_mb" | awk '{print $4}'| tail -n1 | xargs)
-cpu_idle=
+cpu_idle=$(echo "$vmstat_mb" | awk '{print $15}'| tail -n1 | xargs)
+cpu_kernel=$(echo "$vmstat_mb" | awk '{print $14}'| tail -n1 | xargs)
+disk_io=$(vmstat -d | awk '{ print $10 }' | tail -n 1)
+disk_available=$(df -BM / | awk '{ print $4 }' | tail -n 1)
 
 # Insert statement
 insert_stmt="INSERT INTO PUBLIC.host_usage
