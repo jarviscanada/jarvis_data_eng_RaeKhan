@@ -1,5 +1,5 @@
 # Introduction
-The purpose of this project is to monitor a cluster of 10 servers running CentOS 7. The servers can communicate via IPv4 addresses and are internally connected via a network switch. Two major types of data are recorded: hardware specifications for each node and node resource usage. These types of data will be collected using the `host_info.sh` and `host_usage.sh` files respectively. Data will then be collected using a crontab, and then stored in an RDBMS database using a PostgreSQL instance provisioned via a docker container. This project is used by the Jarvis Linux Cluster Administration (LCA) Team to answer various business associated questions about the cluster as well as to improve their future resource planning.
+The purpose of this project is to monitor a cluster of 10 servers running CentOS 7. The servers can communicate via IPv4 addresses and are internally connected via a network switch. Two major types of data are recorded: hardware specifications for each node and node resource usage. These types of data will be collected using the `host_info.sh` and `host_usage.sh` files respectively. Data will then be collected using a crontab, and then stored in an RDBMS database using a PostgreSQL instance provisioned via a docker container. This project is used by the Jarvis Linux Cluster Administration (LCA) Team to answer various business-associated questions about the cluster as well as to improve its future resource planning.
 
 # Quick Start
 ``` bash
@@ -21,7 +21,7 @@ psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 ```
 
 # Implementation
-The project will be implemented by using Docker to create a PSQL instance. A database of 2 tables will be used. The first table will be used for host information and the second for host usage information. The latter will be collected every minute using the crontab. Then 3 queries from the `sql/queries.sql` file will be executed to obtain data on group hosts by hardware information, average memory usage and detecting host failure.
+The project will be implemented by using Docker to create a PSQL instance. A database of 2 tables will be used. The first table will be used for host information and the second for host usage information. The latter will be collected every minute using the crontab. Then 3 queries from the `sql/queries.sql` file will be executed to obtain data on group hosts by hardware information, average memory usage, and detecting host failure.
 
 ## Architecture
 ![Architecture Diagram](./assets/architecture_diagram.jpg)
@@ -30,7 +30,7 @@ The project will be implemented by using Docker to create a PSQL instance. A dat
 Shell script description and usage:
 
 - `psql_docker.sh`
-  Creates, starts or stops Docker container using the PSQL instance
+  Creates starts or stops Docker container using the PSQL instance
 
 ``` bash
 ./scripts/psql_docker.sh create db_username db_password
@@ -107,6 +107,6 @@ Docker was used to establish a PSQL instance to store the necessary database.
 
 # Improvements
 
-- Handle hardware update and update the table as necessary
-- Add additional columsn within the host info and host usage table to obtain a greater evaluation for efficiency
+- Handle hardware updates and update the table as necessary
+- Add additional columns within the host info and host usage table to obtain a greater evaluation for efficiency
 - Obtain additional information regarding the host failure, if there is one
