@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/bash
 
 # enter 3 CLI arguments
 cmd=$1
