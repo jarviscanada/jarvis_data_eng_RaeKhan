@@ -1,97 +1,60 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
-      ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "awards_achievements": null,
+      "degree": "Web Development Bootcamp Diploma",
+      "department": "Web Development",
+      "duration": "2021 - 2021",
+      "school_name": "Lighthouse Labs"
     },
     {
       "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "degree": "Bachelor of Aerospace Engineering",
+      "department": "Aerospace Engineering",
+      "duration": "2014 - 2021",
+      "school_name": "Ryerson University"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Aided in the development of a mobile application that allows users to see rich basketball data for their fantasy team to make more informed decisions. Created using Javascript and HTML.",
+      "git_url": "https://github.com/raejkhan96/Fantasy-Basketball-Helper-App",
+      "name": "Fantasy Basketball Helper App"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Created a simplified single page Twitter clone created using HTML, CSS, JQuery and Ajax.",
+      "git_url": "https://github.com/raejkhan96/tweeter",
+      "name": "Tweeter"
+    },
+    {
+      "description": "Collaborated on a full stack web application designed to buy/sell items, similar to Kijiji, created using EJS, JS, HTML and CSS.",
+      "git_url": "https://github.com/raejkhan96/DinoDiscount",
+      "name": "DinoDiscount"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "/linux_sql",
+      "description": "The purpose of this project is to monitor a cluster of servers running CentOS 7 for the Jarvis Linux Cluster Administration (LCA) Team. Data is obtained and inserted in an RDBMS database using PostgreSQL, Docker, crontab, and Bash.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Rae Khan",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "edX Querying with T-SQL (2020)",
+        "Udemy Excel VBA \u0026 Excel Macros (2020)",
+        "LinkedIn Agile Software Development (2020)"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Avid reader",
+        "Fitness enthusiast",
+        "Photography"
       ],
       "title": "Activities/Hobbies"
     }
@@ -99,31 +62,38 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
+      "description": "Participating in agile best practises working on various software projects including Linux, Bash, SQL, and Java.",
+      "duration": "2021-present",
       "title": "Software Developer"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Geek Education",
+      "description": "Educated upwards of 25 students ages 8 - 12 individually on the basics of Python, including various topics on syntax, functions, and variables.",
+      "duration": "2021",
+      "title": "Virtual Python Instructor"
+    },
+    {
+      "company": "Institute of Robotics and Intelligent Systems",
+      "description": "Enthusiastically taught approximately 30 students ages 5 - 12 over 12 weeks on various courses, including Basic Python, 3D Printing, Lego EV3 Robotics, and Lego Wedo Robotics.",
+      "duration": "2019-2021",
+      "title": "Lead Robotics Instructor"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "JavaScript",
+      "Python",
+      "MATLAB",
+      "HTML",
+      "CSS",
+      "VBA"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "Ruby",
+      "React",
+      "JQuery",
+      "Ajax",
+      "Express"
     ],
     "proficient": [
       "Java",
@@ -133,5 +103,5 @@
       "Git"
     ]
   },
-  "summary": "My name is Rae Khan, I have recently joined Jarvis as a Data Engineer and would like to introduce myself. I have earned a Bachelors of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB coding and within the last several years, Ive honed my software skills. Ive completed courses on platforms such as Udemy and edX in topics such as VBA programming and SQL. In my previous position, I worked as a Python Instructor. I taught various students the basics of Python, such as syntax, data types, and functions. Additionally, I recently completed a Web Development Bootcamp at Lighthouse Labs gaining additional software skills such as JavaScript, HTML, and CSS. I look forward to expanding my software skillset with Jarvis."
+  "summary": "My name is Rae Khan, I have recently joined Jarvis as a Data Engineer and would like to introduce myself. I have earned a Bachelors of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB coding and within the last several years, I have honed my software skills. I have completed courses on platforms such as Udemy and edX in topics such as VBA programming and SQL. In my previous position, I worked as a Python Instructor. I taught various students the basics of Python, such as syntax, data types, and functions. Additionally, I recently completed a Web Development Bootcamp at Lighthouse Labs gaining additional software skills such as JavaScript, HTML, and CSS. I look forward to expanding my software skillset with Jarvis."
 }
