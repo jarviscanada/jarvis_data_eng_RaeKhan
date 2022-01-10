@@ -19,7 +19,7 @@
       "school_name": "XYZ university"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan",
   "highlighted_projects": [
     {
       "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
@@ -73,7 +73,7 @@
       "name": "Cloud/DevOps"
     }
   ],
-  "name": "John Smith",
+  "name": "Rae Khan",
   "others": [
     {
       "bullets": [
@@ -133,5 +133,5 @@
       "Git"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "My name is Rae Khan, I have recently joined Jarvis as a Data Engineer and would like to introduce myself. I have earned a Bachelors of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB coding and within the last several years, Ive honed my software skills. Ive completed courses on platforms such as Udemy and edX in topics such as VBA programming and SQL. In my previous position, I worked as a Python Instructor. I taught various students the basics of Python, such as syntax, data types, and functions. Additionally, I recently completed a Web Development Bootcamp at Lighthouse Labs gaining additional software skills such as JavaScript, HTML, and CSS. I look forward to expanding my software skillset with Jarvis."
 }
