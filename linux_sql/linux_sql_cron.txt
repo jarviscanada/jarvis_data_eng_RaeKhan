@@ -1,0 +1,3 @@
+* * * * * bash /home/centos/dev/jarvis_data_eng_Rae/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+
+

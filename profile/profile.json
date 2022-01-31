@@ -1,0 +1,107 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Web Development Bootcamp Diploma",
+      "department": "Web Development",
+      "duration": "2021 - 2021",
+      "school_name": "Lighthouse Labs"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Aerospace Engineering",
+      "department": "Aerospace Engineering",
+      "duration": "2014 - 2021",
+      "school_name": "Ryerson University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan",
+  "highlighted_projects": [
+    {
+      "description": "Aided in the development of a mobile application that allows users to see rich basketball data for their fantasy team to make more informed decisions. Created using Javascript and HTML.",
+      "git_url": "https://github.com/raejkhan96/Fantasy-Basketball-Helper-App",
+      "name": "Fantasy Basketball Helper App"
+    },
+    {
+      "description": "Created a simplified single page Twitter clone created using HTML, CSS, JQuery and Ajax.",
+      "git_url": "https://github.com/raejkhan96/tweeter",
+      "name": "Tweeter"
+    },
+    {
+      "description": "Collaborated on a full stack web application designed to buy/sell items, similar to Kijiji, created using EJS, JS, HTML and CSS.",
+      "git_url": "https://github.com/raejkhan96/DinoDiscount",
+      "name": "DinoDiscount"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "The purpose of this project is to monitor a cluster of servers running CentOS 7 for the Jarvis Linux Cluster Administration (LCA) Team. Data is obtained and inserted in an RDBMS database using PostgreSQL, Docker, crontab, and Bash.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Rae Khan",
+  "others": [
+    {
+      "bullets": [
+        "edX Querying with T-SQL (2020)",
+        "Udemy Excel VBA \u0026 Excel Macros (2020)",
+        "LinkedIn Agile Software Development (2020)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Avid reader",
+        "Fitness enthusiast",
+        "Photography"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Participating in agile best practises working on various software projects including Linux, Bash, SQL, and Java.",
+      "duration": "2021-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "Geek Education",
+      "description": "Educated upwards of 25 students ages 8 - 12 individually on the basics of Python, including various topics on syntax, functions, and variables.",
+      "duration": "2021",
+      "title": "Virtual Python Instructor"
+    },
+    {
+      "company": "Institute of Robotics and Intelligent Systems",
+      "description": "Enthusiastically taught approximately 30 students ages 5 - 12 over 12 weeks on various courses, including Basic Python, 3D Printing, Lego EV3 Robotics, and Lego Wedo Robotics.",
+      "duration": "2019-2021",
+      "title": "Lead Robotics Instructor"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "JavaScript",
+      "Python",
+      "MATLAB",
+      "HTML",
+      "CSS",
+      "VBA"
+    ],
+    "familiar": [
+      "Ruby",
+      "React",
+      "JQuery",
+      "Ajax",
+      "Express"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "My name is Rae Khan, I have recently joined Jarvis as a Data Engineer and would like to introduce myself. I have earned a Bachelors of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB coding and within the last several years, I have honed my software skills. I have completed courses on platforms such as Udemy and edX in topics such as VBA programming and SQL. In my previous position, I worked as a Python Instructor. I taught various students the basics of Python, such as syntax, data types, and functions. Additionally, I recently completed a Web Development Bootcamp at Lighthouse Labs gaining additional software skills such as JavaScript, HTML, and CSS. I look forward to expanding my software skillset with Jarvis."
+}

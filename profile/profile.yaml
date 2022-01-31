@@ -1,0 +1,107 @@
+# Preferred name (Characters only)
+name: "Rae Khan"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_RaeKhan
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary:  My name is Rae Khan, I have recently joined Jarvis as a Data Engineer and would like to introduce myself. I have earned a Bachelors of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB coding and within the last several years, I have honed my software skills. I have completed courses on platforms such as Udemy and edX in topics such as VBA programming and SQL. In my previous position, I worked as a Python Instructor. I taught various students the basics of Python, such as syntax, data types, and functions. Additionally, I recently completed a Web Development Bootcamp at Lighthouse Labs gaining additional software skills such as JavaScript, HTML, and CSS. I look forward to expanding my software skillset with Jarvis.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - JavaScript
+    - Python
+    - MATLAB
+    - HTML
+    - CSS
+    - VBA
+  # At least 5 skills
+  familiar:
+    - Ruby
+    - React
+    - JQuery
+    - Ajax
+    - Express
+    
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: The purpose of this project is to monitor a cluster of servers running CentOS 7 for the Jarvis Linux Cluster Administration (LCA) Team. Data is obtained and inserted in an RDBMS database using PostgreSQL, Docker, crontab, and Bash.
+  
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Fantasy Basketball Helper App"
+    #URL is optional
+    git_url: "https://github.com/raejkhan96/Fantasy-Basketball-Helper-App"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Aided in the development of a mobile application that allows users to see rich basketball data for their fantasy team to make more informed decisions. Created using Javascript and HTML.
+  - name: "Tweeter"
+    git_url: "https://github.com/raejkhan96/tweeter"
+    description: Created a simplified single page Twitter clone created using HTML, CSS, JQuery and Ajax.
+  - name: "DinoDiscount"
+    git_url: "https://github.com/raejkhan96/DinoDiscount"
+    description: Collaborated on a full stack web application designed to buy/sell items, similar to Kijiji, created using EJS, JS, HTML and CSS.
+ 
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2021-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Participating in agile best practises working on various software projects including Linux, Bash, SQL, and Java."
+  - title: "Virtual Python Instructor"
+    company: "Geek Education"
+    duration: "2021"
+    description: "Educated upwards of 25 students ages 8 - 12 individually on the basics of Python, including various topics on syntax, functions, and variables."
+  - title: "Lead Robotics Instructor"
+    company: "Institute of Robotics and Intelligent Systems"
+    duration: "2019-2021"
+    description: "Enthusiastically taught approximately 30 students ages 5 - 12 over 12 weeks on various courses, including Basic Python, 3D Printing, Lego EV3 Robotics, and Lego Wedo Robotics."
+
+education: 
+  - school_name: "Lighthouse Labs"
+    duration: "2021 - 2021"
+    degree: "Web Development Bootcamp Diploma"
+    department: "Web Development"
+    awards_achievements:
+  - school_name: "Ryerson University"
+    duration: "2014 - 2021"
+    degree: "Bachelor of Aerospace Engineering"
+    department: "Aerospace Engineering"
+    awards_achievements:
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "edX Querying with T-SQL (2020)"
+      - "Udemy Excel VBA & Excel Macros (2020)" 
+      - "LinkedIn Agile Software Development (2020)"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Avid reader"
+      - "Fitness enthusiast"
+      - "Photography"
