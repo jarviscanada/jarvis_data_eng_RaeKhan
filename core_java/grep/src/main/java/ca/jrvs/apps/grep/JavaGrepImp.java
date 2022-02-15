@@ -26,6 +26,7 @@ public class JavaGrepImp implements JavaGrep {
         // Use default logger config
         BasicConfigurator.configure();
 
+//      Test Arguments: .*Romeo.*Juliet.* /home/centos/dev/jarvis_data_eng_Rae/core_java/grep/data/txt testOutFile.txt
         JavaGrepImp javaGrepImp = new JavaGrepImp();
         javaGrepImp.setRegex(args[0]);
         javaGrepImp.setRootPath(args[1]);
@@ -63,6 +64,7 @@ public class JavaGrepImp implements JavaGrep {
     @Override
     public List<File> listFiles(String rootDir) {
         List<File> files = new ArrayList<>();
+//        use rootDir as File
         File filesList = new File(rootDir);
         File[] rootDirFiles = filesList.listFiles();
 
