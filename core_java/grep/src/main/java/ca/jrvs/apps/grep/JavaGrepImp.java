@@ -1,8 +1,14 @@
 package ca.jrvs.apps.grep;
 
-import com.sun.org.slf4j.internal.Logger;
-import com.sun.org.slf4j.internal.LoggerFactory;
-import org.apache.log4j.BasicConfigurator;
+//import com.sun.org.slf4j.internal.Logger;
+//import com.sun.org.slf4j.internal.LoggerFactory;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.spi.Configurator;
+import  org.slf4j.Logger;
+import  org.slf4j.LoggerFactory;
+import  org.apache.log4j.BasicConfigurator;
+
 
 import java.io.*;
 import java.util.ArrayList;
@@ -11,7 +17,6 @@ import java.util.Scanner;
 
 public class JavaGrepImp implements JavaGrep {
 
-
     final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
 
     private String regex;
@@ -19,12 +24,15 @@ public class JavaGrepImp implements JavaGrep {
     private String outFile;
 
     public static void main(String[] args) {
+
+        // Use default logger config
+        BasicConfigurator.configure();
+
+
         if (args.length != 3) {
             throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
         }
 
-        // Use default logger config
-        BasicConfigurator.configure();
 
 //      Test Arguments: .*Romeo.*Juliet.* /home/centos/dev/jarvis_data_eng_Rae/core_java/grep/data/txt testOutFile.txt
         JavaGrepImp javaGrepImp = new JavaGrepImp();
