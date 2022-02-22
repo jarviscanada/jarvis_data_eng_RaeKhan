@@ -11,7 +11,7 @@ The technologies used in this project are:
 * IntelliJ Idea
 * Maven
 * Docker 
-* GitHub.
+* GitHub
 
 # Quick Start
 Ensure you are in the Grep Project Directory
