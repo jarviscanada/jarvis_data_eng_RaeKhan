@@ -8,7 +8,10 @@ ca/jrvs/apps/grep/JavaGrepImp.class
 ca/jrvs/apps/practice/Minion.class
 ca/jrvs/apps/practice/RegexExc2.class
 ca/jrvs/apps/practice/HelloWorld.class
+<<<<<<< HEAD
 ca/jrvs/apps/practice/MinionTest.class
+=======
+>>>>>>> feature-readme
 ca/jrvs/apps/grep/JavaGrep.class
 ca/jrvs/apps/practice/Cat.class
 ca/jrvs/apps/practice/RegExc.class
