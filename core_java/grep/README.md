@@ -1,5 +1,17 @@
 # Introduction
-The purpose of this project is to mimic the Linux grep command. The application is used to search for strings with a specific pattern recursively in a directory, and then return the matched output to a file. The three inputs taken in by the application are:  regex  the text string providing the search patting, rootPath  the root directory path, and outFile  the name of the output file. The technologies used in this project are Core Java, IntelliJ Idea, Maven, Docker and GitHub.
+The purpose of this project is to mimic the Linux grep command. The application is used to search for strings with a specific pattern recursively in a directory, and then return the matched output to a file. 
+
+The three inputs taken in by the application are: 
+ * regex: the text string providing the search patting
+ * rootPath: the root directory path
+ * outFile: the name of the output file. 
+
+The technologies used in this project are:
+* Core Java
+* IntelliJ Idea
+* Maven
+* Docker 
+* GitHub.
 
 # Quick Start
 Ensure you are in the Grep Project Directory
