@@ -22,9 +22,9 @@ Compile and package your Java code
 ``` 
 mvn clean compile package 
 ```
-Classpath and class files Approach
+Launch JVM and run the app
 ``` 
-java -classpath target/classes ca.jrvs.apps.grep.JavaGrepImp .*Romeo.*Juliet.* ./data /out/grep.txt 
+java -cp target/grep-1.0-SNAPSHOT.jar ca.jrvs.apps.grep.JavaGrepImp .*Romeo.*Juliet.* ./data ./out/grep.txt
 ```
 
 Using Docker:
