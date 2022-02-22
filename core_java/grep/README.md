@@ -60,6 +60,6 @@ Several tests were done using the Romeo and Juliet keywords within a Shakespeare
 # Deployment
 The GitHub repository contains the necessary files for deployment. Maven was used to package the entire project with all necessary dependencies. Additionally, a new Docker image was built locally, and the image was then pushed to Docker Hub. 
 # Improvement
-*	Add an additional feature that inverts the search. Words that do not match the given input are found and saved to an output file.
-*	Add another feature which in addition to displaying the result, displays 1 line before and after the match. This would provide more context to the results.  
+*	Add a feature that inverts the search. Words that do not match the given input are found and saved to an output file.
+*	Add another feature that in addition to displaying the result, displays 1 line before and after the match. This would provide more context to the results.  
 *	Another feature could involve displaying the line number of the result within the larger text. This would allow the user to easily find their result in the original text should they need to. 
