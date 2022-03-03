@@ -1,64 +1,97 @@
 {
   "education": [
     {
-      "awards_achievements": null,
-      "degree": "Full-stack Web Development Bootcamp Diploma",
-      "department": "Web Development",
-      "duration": "2021 - 2021",
-      "school_name": "Lighthouse Labs"
+      "awards_achievements": [
+        "Scholarship",
+        "Dean's List (2015, 2016): Ut enim ad minim veniam",
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "Bachelor of Applied Sciences",
+      "department": "Electrical and Computer Engineering",
+      "duration": "2012-2016",
+      "school_name": "XYZ university"
     },
     {
       "awards_achievements": null,
-      "degree": "Bachelor of Aerospace Engineering",
-      "department": "Aerospace Engineering",
-      "duration": "2014 - 2021",
-      "school_name": "Ryerson University"
+      "degree": "Master of Engineering",
+      "department": "Electrical and Computer Engineering",
+      "duration": "2016-2018",
+      "school_name": "XYZ university"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
   "highlighted_projects": [
     {
-      "description": "Programmed a web application using JavaScript React, HTML, CSS, Express, and PostgreSQL to allow users to see rich basketball data for their fantasy team to make more informed descisions. The front-end uses JavaScript React, the backend uses Express, and PostgreSQL is used for the database. Features include sourcing NBA data from SportsDataIo API, using fantasy stats that follow Yahoo Fantasy Sports, and various data representations from Vicory React.js.",
-      "git_url": "https://github.com/raejkhan96/Fantasy-Basketball-Helper-App",
-      "name": "Fantasy Basketball Helper App"
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
+      "name": "Web app for resturant"
     },
     {
-      "description": "Coded a Twitter clone to display short 140-character messages created using HTML, CSS, jQuery, Ajax, and Express.The fron-end uses jQuery and Ajax while the backend uses Express. Features include the ability to write out various messages, tweet them, and view previous messages.",
-      "git_url": "https://github.com/raejkhan96/tweeter",
-      "name": "Tweeter"
-    },
-    {
-      "description": "Collaborated on a full-stack web application designed to buy/sell items (dinosaurs), like  Kijiji, created using EJS, JS, HTML, CSS, Express, and PostgreSQL. The front-end uses EJS, the backend uses Express, and PostgreSQL is used for the database. Features include being able to see different listings, individual listing information, the vendor's information, and the items being sold by the vendor.",
-      "git_url": "https://github.com/raejkhan96/DinoDiscount",
-      "name": "DinoDiscount"
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": null,
+      "name": "Machine Learning"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a Linux clustering monitoring agent for the purposes of collecting and analyzing data using PostgreSQL, Docker, crontab, and Bash. The agent was programmed using Bash and testing was done manually within a Docker container that uses a PostgreSQL Database. This was done via a CentOS virtual machine using Google Cloud Platform.",
-      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/linux_sql",
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": "-Grep App - Coded a Java application that imitated the Linux grep command to search for a pattern recursively within a folder using IntelliJ Maven and Docker. IntelliJ Maven was used to package the project and it was distributed via Docker Hub.",
-      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/core_java",
+      "description": [
+        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      ],
+      "git_url": "/core_java",
       "name": "Core Java Apps"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
     }
   ],
-  "name": "Rae Khan",
+  "name": "John Smith",
   "others": [
     {
       "bullets": [
-        "edX Querying with T-SQL (2020)",
-        "Udemy Excel VBA \u0026 Excel Macros (2020)",
-        "LinkedIn Agile Software Development (2020)"
+        "Udacity Machine Learning (2019)"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        "Volunteer, Ryerson Engineering Competition, Ryerson University",
-        "Leader of Weekly Book Club"
+        "Winner"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Basketball player",
+        "Competitive gaming",
+        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
       ],
       "title": "Activities/Hobbies"
     }
@@ -66,46 +99,39 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Responsible for working on various software projects including Linux, Bash, SQL, and Java. Followed the agile scrum methodology, attended daily scrum meetings, and worked as the team lead. Additionally, assisted colleagues with various technical issues.",
-      "duration": "2021-present",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2020-present",
       "title": "Software Developer"
     },
     {
-      "company": "Geek Education",
-      "description": "Educated upwards of 25 students individually on the basics of Python, including various topics on syntax, functions, and variables. Passionately adapted lessons based on the needs of the student, engaging in various subjects/games they were interested in. Used Google Classroom to ensure students were able to resolve issues regarding homework between classes.",
-      "duration": "2021",
-      "title": "Virtual Python Instructor"
-    },
-    {
-      "company": "Institute of Robotics and Intelligent Systems",
-      "description": "Enthusiastically taught approximately 30 students over 12 weeks on various courses, including Basic Python, 3D Printing, Lego EV3 Robotics, and Lego Wedo Robotics. Updated parents on the performance of students as well as discussed issues. Tailored lesson plans to be more engaging for students. Publicly spoke and gave presentations about the work the company was doing.",
-      "duration": "2019-2021",
-      "title": "Lead Robotics Instructor"
+      "company": "XYZ Company",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2019",
+      "title": "Tutor"
     }
   ],
   "skills": {
     "competent": [
-      "JavaScript (React)",
-      "Python (Pygame)",
-      "HTML",
-      "CSS",
-      "VBA"
+      "Donec",
+      "fermentum",
+      "Donec",
+      "fermentum",
+      "Donec"
     ],
     "familiar": [
-      "Ruby",
-      "React",
-      "JQuery",
-      "Ajax",
-      "Express"
+      "Donec",
+      "fermentum",
+      "fermentum",
+      "fermentum",
+      "fermentum"
     ],
     "proficient": [
       "Java",
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
-      "Git",
-      "MATLAB"
+      "Git"
     ]
   },
-  "summary": "I have earned a Bachelor of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB by continually programming for various school projects and assignments. Within the last several years, I have further honed my software skills by learning VBA and SQL. In addition, I have worked as Full Stack Developer on various web applications, gaining additional skills in JavaScript React, HTML, and CSS. Previously, I worked as a Lead Robotics Instructor where I taught various students the basics of Lego Robotics, Python, and Scratch Programming. I was responsible for developing and distributing lesson plans, delegating tasks, and troubleshooting various issues. Moreover, I see myself as a mold for complex problems, I love working with large amounts of data, and challenging myself to find solutions. Software is an outlet for me to engage with these problems, employ creative results, and I am excited for upcoming opportunities to expand my software skills."
+  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
 }
