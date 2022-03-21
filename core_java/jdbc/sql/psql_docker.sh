@@ -1,0 +1,1 @@
+/home/centos/dev/jarvis_data_eng_rae/linux_sql/scripts/psql_docker.sh
