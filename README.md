@@ -17,7 +17,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_RaeKhan](h
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/linux_sql)]: Developed a Linux clustering monitoring agent for the purposes of collecting and analyzing data using PostgreSQL, Docker, crontab, and Bash. The agent was programmed using Bash and testing was done manually within a Docker container that uses a PostgreSQL Database. This was done via a CentOS virtual machine using Google Cloud Platform.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/core_java)]: -Grep App - Coded a Java application that imitated the Linux grep command to search for a pattern recursively within a folder using IntelliJ Maven and Docker. IntelliJ Maven was used to package the project and it was distributed via Docker Hub.
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/core_java)]:
+      
+  - JDBC App: Developed a Java application with the use of the JDBC API to perform various queries. These include the use of the CRUD (create, read, update, delete) operations. A PostgreSQL database was provisioned using a Docker container. Testing was completed manually in IntelliJ and then verified via the database.
+  - Grep App: Coded a Java application that imitated the Linux grep command to search for a pattern recursively within a folder using IntelliJ Maven and Docker. IntelliJ Maven was used to package the project and it was distributed via Docker Hub.
 
 
 ## Highlighted Projects
