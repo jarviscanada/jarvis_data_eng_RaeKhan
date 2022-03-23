@@ -40,7 +40,10 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": "-Grep App - Coded a Java application that imitated the Linux grep command to search for a pattern recursively within a folder using IntelliJ Maven and Docker. IntelliJ Maven was used to package the project and it was distributed via Docker Hub.",
+      "description": [
+        "JDBC App: Developed a Java application with the use of the JDBC API to perform various queries. These include the use of the CRUD (create, read, update, delete) operations. A PostgreSQL database was provisioned using a Docker container. Testing was completed manually in IntelliJ and then verified via the database.",
+        "Grep App: Coded a Java application that imitated the Linux grep command to search for a pattern recursively within a folder using IntelliJ Maven and Docker. IntelliJ Maven was used to package the project and it was distributed via Docker Hub."
+      ],
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/core_java",
       "name": "Core Java Apps"
     }
