@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_RaeKhan
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I have earned a Bachelor of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB by continually programming for various school projects and assignments. Within the last several years, I have further honed my software skills by learning VBA and SQL. In addition, I have worked as Full Stack Developer on various web applications, gaining additional skills in JavaScript React, HTML, and CSS. Previously, I worked as a Lead Robotics Instructor where I taught various students the basics of Lego Robotics, Python, and Scratch Programming. I was responsible for developing and distributing lesson plans, delegating tasks, and troubleshooting various issues. Moreover, I see myself as a mold for complex problems, I love working with large amounts of data, and challenging myself to find solutions. Software is an outlet for me to engage with these problems, employ creative results, and I am excited for upcoming opportunities to expand my software skills.
+summary: I have earned a Bachelor of Aerospace Engineering from Ryerson University. Throughout my academic career, I became proficient at MATLAB by continually programming for various school projects and assignments. Within the last several years, I have further honed my software skills by learning VBA and SQL. In addition, I have worked as a Full Stack Developer on various web applications, gaining additional skills in JavaScript React, HTML, and CSS. Previously, I worked as a Lead Robotics Instructor where I taught various students the basics of Lego Robotics, Python, and Scratch Programming. I was responsible for developing and distributing lesson plans, delegating tasks, and troubleshooting various issues. Moreover, I see myself as a mold for complex problems, I love working with large amounts of data, and challenging myself to find solutions. Software is an outlet for me to engage with these problems, employ creative results, and I am excited for upcoming opportunities to expand my software skills.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -45,7 +45,8 @@ jarvis_projects:
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_RaeKhan/tree/master/core_java"
     description:
       #  Keywords: Java 8, Lambda, Stream API, IntelliJ
-      -Grep App - Coded a Java application that imitated the Linux grep command to search for a pattern recursively within a folder using IntelliJ Maven and Docker. IntelliJ Maven was used to package the project and it was distributed via Docker Hub.
+      - "JDBC App: Developed a Java application with the use of the JDBC API to perform various queries. These include the use of the CRUD (create, read, update, delete) operations. A PostgreSQL database was provisioned using a Docker container. Testing was completed manually in IntelliJ and then verified via the database."
+      - "Grep App: Coded a Java application that imitated the Linux grep command to search for a pattern recursively within a folder using IntelliJ Maven and Docker. IntelliJ Maven was used to package the project and it was distributed via Docker Hub."
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -55,10 +56,10 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/raejkhan96/Fantasy-Basketball-Helper-App"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Programmed a web application using JavaScript React, HTML, CSS, Express, and PostgreSQL to allow users to see rich basketball data for their fantasy team to make more informed descisions. The front-end uses JavaScript React, the backend uses Express, and PostgreSQL is used for the database. Features include sourcing NBA data from SportsDataIo API, using fantasy stats that follow Yahoo Fantasy Sports, and various data representations from Vicory React.js.
+    description: Programmed a web application using JavaScript React, HTML, CSS, Express, and PostgreSQL to allow users to see rich basketball data for their fantasy team to make more informed decisions. The front-end uses JavaScript React, the backend uses Express, and PostgreSQL is used for the database. Features include sourcing NBA data from SportsDataIo API, using fantasy stats that follow Yahoo Fantasy Sports, and various data representations from Vicory React.js.
   - name: "Tweeter"
     git_url: "https://github.com/raejkhan96/tweeter"
-    description: Coded a Twitter clone to display short 140-character messages created using HTML, CSS, jQuery, Ajax, and Express.The fron-end uses jQuery and Ajax while the backend uses Express. Features include the ability to write out various messages, tweet them, and view previous messages.
+    description: Coded a Twitter clone to display short 140-character messages created using HTML, CSS, jQuery, Ajax, and Express. The front-end uses jQuery and Ajax while the backend uses Express. Features include the ability to write out various messages, tweet them, and view previous messages.
   - name: "DinoDiscount"
     git_url: "https://github.com/raejkhan96/DinoDiscount"
     description: Collaborated on a full-stack web application designed to buy/sell items (dinosaurs), like  Kijiji, created using EJS, JS, HTML, CSS, Express, and PostgreSQL. The front-end uses EJS, the backend uses Express, and PostgreSQL is used for the database. Features include being able to see different listings, individual listing information, the vendor's information, and the items being sold by the vendor.
