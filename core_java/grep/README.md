@@ -2,7 +2,7 @@
 The purpose of this project is to mimic the Linux grep command. The application is used to search for strings with a specific pattern recursively in a directory, and then return the matched output to a file. 
 
 The three inputs taken in by the application are: 
- * regex: the text string providing the search patting
+ * regex: the text string providing the search pattern
  * rootPath: the root directory path
  * outFile: the name of the output file. 
 
