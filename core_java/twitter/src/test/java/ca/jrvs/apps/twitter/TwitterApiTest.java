@@ -1,9 +1,18 @@
 package ca.jrvs.apps.twitter;
 
-import sun.net.www.http.HttpClient;
+
 import java.util.Arrays;
+import com.google.gdata.util.common.base.PercentEscaper;
+
 import oauth.signpost.OAuthConsumer;
 import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer;
+
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.util.EntityUtils;
 
 
 public class TwitterApiTest {
@@ -15,13 +24,13 @@ public class TwitterApiTest {
     public static void main(String[] args) throws Exception{
 
         //setup oauth
-       OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
-       consumer.setTokenWithSecret(ACCESS_TOKEN, TOKEN_SECRET);
+        OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
+        consumer.setTokenWithSecret(ACCESS_TOKEN, TOKEN_SECRET);
 
-       // create an HTTP GET Request
+        // create an HTTP GET Request
         String status = "today us a good day";
-        PercentEscaper percentEscaper = new PercentEscaper(safeChars: "", plusForSpace: false);
-        HttpPost request = new HttpPost(url: "https://api.twitter.com/1.1/statuses/update.json?status=" + percentEscaper.escape(status));
+        PercentEscaper percentEscaper = new PercentEscaper( "", false);
+        HttpGet request = new HttpGet("https://api.twitter.com/1.1/users/lookup.json?screen_name=" + percentEscaper.escape(status));
 
         // sign the request
         consumer.sign(request);
